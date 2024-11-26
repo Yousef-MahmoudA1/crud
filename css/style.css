@@ -1,0 +1,36 @@
+body{
+    background-color: #f7ecde;
+}
+.main {
+    font-size: 50px;
+    font-family: "Great Vibes", cursive;
+}
+
+.main::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background-color: #fec260;
+    left: 0px;
+    bottom: 5px;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+h1:hover::after {
+    height: 60%;
+}
+
+.log{
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: black;
+}
+.hh3{
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
